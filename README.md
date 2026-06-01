@@ -106,25 +106,6 @@ spotify-uide/
 - Cuenta de GitHub con acceso al repositorio
 - Credenciales de Kaggle (token API)
 
-### Usando GitHub Codespaces (recomendado)
-
-1. Abrir el repositorio en GitHub
-2. Clic en **Code → Codespaces → New codespace**
-3. El devcontainer instala automáticamente todas las dependencias
-4. Configurar el token de Kaggle como secreto del repositorio:
-   - `Settings → Secrets → KAGGLE_USERNAME`
-   - `Settings → Secrets → KAGGLE_KEY`
-
-### Descarga del dataset
-
-```python
-import kaggle
-kaggle.api.dataset_download_files(
-    'maharshipandya/-spotify-tracks-dataset',
-    path='./data',
-    unzip=True
-)
-```
 
 ---
 
