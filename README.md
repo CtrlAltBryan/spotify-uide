@@ -13,6 +13,7 @@ Proyecto Integrador — Desarrollo de Proyectos de Sistemas de Información
 |---|---|
 | Bryan Montaguano | `dev/bryan` |
 | Sebastián Aucapiña | `dev/auca` |
+| Testing | `test` |
 
 ---
 
@@ -93,7 +94,6 @@ spotify-uide/
 │   └── devcontainer.json       # Entorno reproducible
 ├── notebooks/
 │   └── spotify_analysis.ipynb  # Notebook principal (Google Colab / Codespaces)
-├── data/                       # Ignorado en .gitignore — se descarga via API
 └── README.md
 ```
 
