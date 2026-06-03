@@ -4,5 +4,4 @@ ipykernel
 scikit-learn
 matplotlib 
 seaborn
-kagglehub
-kagglesdk<0.1.24
+kaggle
