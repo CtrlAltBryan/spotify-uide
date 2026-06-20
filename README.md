@@ -80,9 +80,9 @@ El proyecto combina el marco ágil **Scrum** con la metodología **CRISP-DM**:
 
 | Fase CRISP-DM | Sprint | Estado |
 |---|---|---|
-| Entendimiento del negocio + datos | Sprint 1 | ✅ En curso |
-| Preparación de datos + transformación | Sprint 2 | 🔲 Pendiente |
-| Modelado + evaluación + visualización | Sprint 3 | 🔲 Pendiente |
+| Entendimiento del negocio + datos | Sprint 1 | Finalizado |
+| Preparación de datos + transformación | Sprint 2 | Finalizado |
+| Modelado + evaluación + visualización | Sprint 3 | Finalizado |
 
 ---
 
@@ -92,8 +92,11 @@ El proyecto combina el marco ágil **Scrum** con la metodología **CRISP-DM**:
 spotify-uide/
 ├── .devcontainer/
 │   └── devcontainer.json       # Entorno reproducible
+|   └── Dockerfile 
 ├── notebooks/
 │   └── spotify_analysis.ipynb  # Notebook principal (Google Colab / Codespaces)
+├── data/
+|   └── dataset.csv
 └── README.md
 ```
 
@@ -106,18 +109,6 @@ spotify-uide/
 - Cuenta de GitHub con acceso al repositorio
 - Credenciales de Kaggle (token API)
 
-
----
-
-## 📋 Product Backlog (resumen por sprint)
-
-| Sprint | Periodo | Historias | Objetivo |
-|---|---|---|---|
-| **Sprint 1** | 20 may – 02 jun 2026 | HU-01 a HU-08 | Entorno + entregables + EDA inicial |
-| **Sprint 2** | 03 jun – 16 jun 2026 | HU-09 a HU-12 | Transformación + entrenamiento de modelos |
-| **Sprint 3** | 17 jun – 26 jun 2026 | HU-13 a HU-15 | Visualización + documentación + entrega final |
-
-🔗 **Tablero GitHub Projects:** [github.com/users/CtrlAltBryan/projects/1](https://github.com/users/CtrlAltBryan/projects/1)
 
 ---
 
